@@ -12,6 +12,16 @@
 //
 //------------------------------------------------------------------
 
+function columnsToPercentWidth(val) {
+	
+	if (val <=0) {
+		return "0%";
+	} else {
+		return (parseInt(100/val)) + '%';
+	}
+}
+
+
 
 console.log("====== columnsToPercentWidth ======")
 

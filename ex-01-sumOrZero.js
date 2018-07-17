@@ -6,6 +6,17 @@
 //
 //------------------------------------------------------------------
 
+function sumOrZero (no1, no2) {
+	var sum = no1 + no2 ;
+
+	if (sum < 0) {
+		return 0;
+	} else {
+		return sum;
+	}
+
+}
+
 console.log("====== sumOrZero ======")
 
 console.assert(sumOrZero(0, 5) === 5)
